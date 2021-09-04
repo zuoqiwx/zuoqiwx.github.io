@@ -1,0 +1,105 @@
+html {
+    background: #313131;
+    color: #b2bfce;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #ecc66b;
+    text-decoration: none;
+}
+
+.navigation {
+    background: #44484a;
+    display: table;
+    height: auto;
+    margin: 1em auto;
+    padding: 0.5em;
+    width: 60%;
+}
+
+.navigation a {
+    color: #b2bfce;
+}
+
+.navigation ul {
+    display: table;
+    margin: 0.5em auto;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    font-size: 1.3em;
+    margin: 0 1em;
+    padding: 0.5em 1em;
+}
+
+.navigation li:hover {
+    background: #b2bfce;
+    color: #313131;
+    cursor: pointer;
+}
+
+.content {
+    height: auto;
+    margin: 1em auto;
+    padding: 0.5em;
+    width: 60%;
+}
+
+.footer {
+    background: #44484a;
+    height: auto;
+    margin: 1em auto;
+    padding: 0.5em 0.5em;
+    width: 60%;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+    padding: 0.5em 2em;
+}
+
+.contact div {
+    display: inline-block;
+    padding-left: 0;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact li {
+    margin: 0.5em auto;
+}
+
+.contact img {
+    height: 2em;
+    width: 2em;
+    vertical-align: middle;
+}
+
+.contact span {
+    height: 100%;
+    margin-left: 0.2em;
+    vertical-align: middle;
+}
+
+/* Clearfix */
+.contact::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.attribution {
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 2em;
+}
